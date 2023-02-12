@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RoomBasic</string>
+    <string name="insert_button">Insert</string>
+    <string name="update_button">Update</string>
+    <string name="clear_button">Clear</string>
+    <string name="delete_button">Delete</string>
+</resources>
