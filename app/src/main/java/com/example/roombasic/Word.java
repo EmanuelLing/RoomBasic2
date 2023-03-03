@@ -18,6 +18,9 @@ public class Word {
     @ColumnInfo(name = "chinese_meaning")
     private String chineseMeaning;
 
+    @ColumnInfo(name = "chinese_invisible")
+    private boolean chineseInvisible;
+
     // the constructor used to set the initial value of 'word' and 'chineseMeaning'
     public Word(String word, String chineseMeaning) {
         this.word = word;
@@ -46,5 +49,13 @@ public class Word {
 
     public void setChineseMeaning(String chineseMeaning) {
         this.chineseMeaning = chineseMeaning;
+    }
+
+    public boolean isChineseInvisible() {
+        return chineseInvisible;
+    }
+
+    public void setChineseInvisible(boolean chineseInvisible) {
+        this.chineseInvisible = chineseInvisible;
     }
 }
